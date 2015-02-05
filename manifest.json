@@ -1,0 +1,18 @@
+{
+    "manifest_version": 2,
+    "content_scripts": [ {
+        "exclude_globs":    [  ],
+        "include_globs":    [ "*" ],
+        "js":               [ "TW5TicketAssistant.user.js" ],
+        "matches":          [ "*://tw.radialpoint.net/*","*://hwtechweb.com/*"],
+        "run_at": "document_end"
+    } ],
+	"converted_from_user_script": true,
+	"description":  "Techweb Ver 5 In-ticket Assistant with MBAM,JRT and auto PDR generator.",
+	"name":         "TW5 Ticket Assistant",
+	"version":      "2.1.1",
+	"author":	"Jeff Williams & Damien Junor",
+	"icons": { "16": "icon.png","48": "icon.png","128": "icon.png" }
+}
+
+
